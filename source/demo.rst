@@ -6,9 +6,15 @@ Demo
 chapters
 ********
 
+
+.. _sections-label:
+
 =================
 sections
 =================
+
+
+.. _my-figure:
 
 -----------
 subsections
@@ -124,3 +130,22 @@ environment
             : ["finally" ":" `suite`]
    try2_stmt: "try" ":" `suite`
             : "finally" ":" `suite`
+
+
+
+`flash <https://www.flash.cn/>`_
+
+This is the text of the section.
+
+It refers to the section itself, see :ref:`sections-label`.
+
+
+This is the text of the section.
+
+
+This is the text of the section.
+
+It refers to the section itself, see :ref:`my-figure`.
+
+
+This is the text of the section.

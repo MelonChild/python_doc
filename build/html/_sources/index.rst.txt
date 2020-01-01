@@ -12,7 +12,8 @@
 
    intro
    env
-   pc
-   app
+   pcissue
+   appissue
+   issue
 
 

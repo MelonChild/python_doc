@@ -67,8 +67,11 @@ html_logo = '_static/logo.png'
 html_show_sourcelink = False
 html_search_language = 'zh'
 html_search_options = {
+    'type': 'mecab',
+    'dic_enc': 'utf-8',
     'dict': '/path/to/jieba.dic',
 }
+html_use_opensearch = 'True'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
