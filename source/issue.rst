@@ -113,3 +113,10 @@ Windows取消麦克风独占模式
 + 如果多次网络连接失败，请点击测试网络。一般造成这种问题的原因是RTMP协议被禁用。按照提示测试网络后，会给出结论
 
 .. image:: _static/issues-num-2.png
+
+.. _issues-dns-label:
+
+DNS刷新
+======================================
+
+特殊情况下站点服务器迁移，或者电脑DNS失效，需要刷新。参考：https://blog.csdn.net/guawawa311/article/details/103437421
